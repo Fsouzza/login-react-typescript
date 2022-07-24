@@ -1,0 +1,21 @@
+.login-form-btn{
+    font-size: 1rem;
+    border: none;
+    border-radius: .5rem;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to left, #9704C2, #5408FF);
+    transition: all .8s;
+}
+
+.login-form-btn:hover{
+    cursor: pointer;
+    transition: all .8s;
+    background: linear-gradient(to left, #5408FF, #9704C2);
+}
